@@ -1,0 +1,226 @@
+.locaton>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.locaton>p {
+    margin: 0px;
+    color: black;
+    font-size: 13px;
+}
+
+.vertical-line {
+    height: 55px;
+    border-left: 2px solid #f2f2f2;
+}
+
+.search-bar {
+    padding: 0px 12px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: transparent;
+}
+
+.search-bar>input {
+    border: none;
+    background: transparent;
+    width: 40vw;
+    height: 4vw;
+}
+
+.my-cart {
+    background-color: #0c831f;
+    font-size: 14px;
+}
+
+.my-container {
+    margin: auto;
+    width: 96%;
+    overflow-x: auto;
+}
+
+.my-list {
+    white-space: nowrap;
+}
+
+.my-list>img {
+    padding-inline: 8px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.my-card {
+    width: 179px;
+    margin-inline-end: 10px;
+}
+
+.my-card-time {
+    width: fit-content;
+    height: 10px;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    padding: 0px 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+
+.my-card-title {
+    overflow: hidden;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.my-card-weight {
+    font-size: 13px;
+    color: #666666
+}
+
+.card-price {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.category-section {
+    width: 96%;
+    margin: auto;
+}
+
+.category-section-row {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.my-footer {
+    width: 96%;
+    margin: auto;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-inline: 10px;
+}
+
+.social {
+    display: flex;
+}
+
+.row-3 {
+    font-size: 13px;
+    color: #666666;
+    padding: 10px;
+}
+
+.download-btn {
+    background-color: #213b4e;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.useful-links {
+    flex: 2;
+}
+
+.categories-links {
+    flex: 3;
+}
+
+td {
+    font: 14px;
+    color: #666666;
+    padding: 2px 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.see-all {
+    font-size: medium;
+}
+
+@media screen and (max-width:768px) {
+
+    nav,
+    .row-2,
+    .row-1 {
+        flex-direction: column !important;
+    }
+
+    .vertical-line,
+    .hero-section>img {
+        display: none !important;
+    }
+
+    .row-1>div,
+    .row-2,
+    .row-3>div {
+        margin-top: 20px;
+    }
+
+    .row-1>div>h2 {
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .social {
+        margin-top: 20px;
+    }
+
+    .row-2>p,
+    .download-section>p {
+        text-align: center;
+    }
+
+    .search-bar {
+        width: 90%;
+    }
+
+    .location>h5,
+    .login-btn,
+    .cart-btn {
+        margin-top: 20px;
+    }
+
+    .login-btn,
+    .cart-btn {
+        width: 90%;
+    }
+
+    .my-list,
+    .category-section {
+        margin-top: 20px;
+    }
+}
